@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-block-end: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+  
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
